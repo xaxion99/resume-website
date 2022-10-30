@@ -7,9 +7,10 @@ import Textblock from '../Textblock';
 function AboutMe() {
 	return (
 		<>
-			<Textblock
-				src='images/Logan.jpg'
-				text='I am a Computer Engineer currently working at Innovative Development &
+			<div className='aboutme'>
+				<Textblock
+					src='images/Logan.jpg'
+					text='I am a Computer Engineer currently working at Innovative Development &
 					Design Engineers Ltd. (IDDEL). I graduated from Memorial University of
 					Newfoundland (MUN) with a B.Eng in Computer Engineering in 2017. I
 					have over 7 years of experience in various computer technology fields,
@@ -21,10 +22,11 @@ function AboutMe() {
 					as a developer working on software/web applications for the
 					engineering profession. I have professional licensure through PEGNL
 					and an engineer’s stamp.'
-				title='About Me'
-			></Textblock>
-			<Skills></Skills>
-			<Footer></Footer>
+					title='About Me'
+				></Textblock>
+				<Skills></Skills>
+				<Footer></Footer>
+			</div>
 		</>
 	);
 }

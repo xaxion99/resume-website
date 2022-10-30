@@ -23,12 +23,16 @@ h3 {
 	padding: 0rem 1rem;
 	padding-bottom: 2rem;
 	text-align: center;
+	width: 70vw;
+	margin: auto;
 }
 
 .skills {
 	display: inline-flex;
 	flex-wrap: wrap;
 	padding-bottom: 3rem;
+	align-items: center;
+	justify-content: center;
 }
 
 .skill {
@@ -44,7 +48,8 @@ h3 {
 
 .skills-container > .btn {
 	display: block;
-	margin: 0rem auto 0rem auto;
+	width: 70vw;
+	margin: auto;
 }
 
 a,

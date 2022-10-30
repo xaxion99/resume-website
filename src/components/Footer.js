@@ -16,13 +16,12 @@ function Footer() {
 				<small className='fr website-rights'>Contact Email:</small>
 				<br></br>
 				<small className='fr website-rights'>
-					logan.drum92@gmail.com{' '}
 					<a
 						target='_blank'
 						rel='noopener noreferrer'
 						href='mailto: logan.drum92@gmail.com'
 					>
-						<i className='fa-solid fa-envelope'></i>
+						logan.drum92@gmail.com <i className='fa-solid fa-envelope'></i>
 					</a>
 				</small>
 			</div>

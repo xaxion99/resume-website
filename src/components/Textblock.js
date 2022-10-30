@@ -4,9 +4,9 @@ import './Textblock.css';
 function Textblock(props) {
 	return (
 		<>
-			<div className='square textblock'>
+			<div className='textblock'>
 				<h1>{props.title}</h1>
-				<div>
+				<div className='image-container'>
 					<img
 						src={props.src}
 						alt='Logan R. J. Drum, P.Eng'

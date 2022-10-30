@@ -36,7 +36,7 @@ function Skills() {
 					buttonSize='btn--large'
 				>
 					<a
-						href='docs/Resume - Logan R. J. Drum 2022.pdf'
+						href='Resume - Logan R. J. Drum 2022.pdf'
 						download
 					>
 						Resume <i className='fa-solid fa-file-arrow-down' />

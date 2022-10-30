@@ -1,5 +1,10 @@
+small {
+	font-size: 0.6rem;
+}
+
 .footer-container {
-	background-color: #bd5805;
+	background: radial-gradient(circle, rgb(189, 88, 5) 0%, rgb(84, 39, 5) 100%);
+	/* background-color: #bd5805; */
 	display: flex;
 	align-items: center;
 }
@@ -16,7 +21,7 @@
 	align-self: flex-end;
 	display: flex;
 	justify-content: center;
-	padding-bottom: 1px;
+	padding-bottom: 2px;
 	width: calc(100% / 3);
 }
 

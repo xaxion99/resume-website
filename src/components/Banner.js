@@ -25,7 +25,7 @@ function Banner() {
 						buttonStyle='btn--outline'
 						buttonSize='btn--large'
 					>
-						ABOUT ME <i className='fa-solid fa-user' />
+						About Me <i className='fa-solid fa-user' />
 					</Button>
 				</Link>
 				<Link

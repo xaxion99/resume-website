@@ -8,6 +8,7 @@
 h1 {
 	padding: 2rem 0rem;
 	font-weight: bold;
+	word-break: break-word;
 }
 
 img {

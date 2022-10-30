@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.projects {
+	display: flex;
+	height: 90vh;
+	align-items: center;
+	justify-content: center;
+	font-size: 3rem;
+}
+
+.projects {
+	background: #242424;
+	/* background-image: url('/images/img-1.jpg'); */
+	background-position: center;
+	background-size: fill;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 100px;
+}
+
+.project-1 > .btn,
+.project-2 > .btn,
+.project-3 > .btn,
+.project-4 > .btn,
+.project-5 > .btn {
+	display: block;
+	margin: auto;
+}
+
+.btn > a:hover,
+.btn > a:hover,
+.btn > a:hover,
+.btn > a:hover,
+.btn > a:hover {
+	color: #242424;
+}
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+	background: #242424;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 5rem;
+	height: fit-content;
+	padding-bottom: 2rem;
+}

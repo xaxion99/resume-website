@@ -27,6 +27,7 @@ function Skills() {
 					<div className='skill'>Python</div>
 					<div className='skill'>R</div>
 					<div className='skill'>React.js</div>
+					<div className='skill'>REST</div>
 					<div className='skill'>TypeScript</div>
 					<div className='skill'>Vue.js</div>
 				</div>

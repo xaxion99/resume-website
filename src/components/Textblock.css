@@ -29,8 +29,6 @@ p {
 .textblock {
 	display: block;
 	height: fit-content;
-	align-items: center;
-	justify-content: center;
 	font-size: 3rem;
 	background: #242424;
 	background-position: center;

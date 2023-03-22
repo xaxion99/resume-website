@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
-import Footer from '../Footer';
 import Textblock from '../Textblock';
 
 export default function Project3() {
@@ -25,6 +24,7 @@ export default function Project3() {
 						bot has proven to be somewhat succesful.'
 					title='Cryptocurrency Grid Trading Bot'
 				></Textblock>
+				<br></br>
 				<Button
 					className='btn'
 					buttonStyle='btn--outline'
@@ -39,7 +39,6 @@ export default function Project3() {
 					</a>
 				</Button>
 			</div>
-			<Footer></Footer>
 		</>
 	);
 }

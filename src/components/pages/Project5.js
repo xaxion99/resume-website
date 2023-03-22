@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
-import Footer from '../Footer';
 import Textblock from '../Textblock';
 
 export default function Project5() {
@@ -24,6 +23,7 @@ export default function Project5() {
 						of course bragging to your friends.'
 					title='Wordle Solver'
 				></Textblock>
+				<br></br>
 				<Button
 					className='btn'
 					buttonStyle='btn--outline'
@@ -38,7 +38,6 @@ export default function Project5() {
 					</a>
 				</Button>
 			</div>
-			<Footer></Footer>
 		</>
 	);
 }

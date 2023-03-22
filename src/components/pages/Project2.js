@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
-import Footer from '../Footer';
 import Textblock from '../Textblock';
 
 function Project2() {
@@ -28,6 +27,7 @@ function Project2() {
 						the near future.'
 					title='Build Your Own TV Channels'
 				></Textblock>
+				<br></br>
 				<Button
 					className='btn'
 					buttonStyle='btn--outline'
@@ -42,7 +42,6 @@ function Project2() {
 					</a>
 				</Button>
 			</div>
-			<Footer></Footer>
 		</>
 	);
 }

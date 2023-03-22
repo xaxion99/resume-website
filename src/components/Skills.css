@@ -14,11 +14,7 @@ h3 {
 
 .skills-container {
 	display: block;
-	height: fit-content;
 	background: #242424;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 	color: #fff;
 	padding-bottom: 2rem;
 	text-align: center;

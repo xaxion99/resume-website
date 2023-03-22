@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Footer from '../Footer';
 import Skills from '../Skills';
 import Textblock from '../Textblock';
 
@@ -25,7 +24,6 @@ function AboutMe() {
 					title='About Me'
 				></Textblock>
 				<Skills></Skills>
-				<Footer></Footer>
 			</div>
 		</>
 	);

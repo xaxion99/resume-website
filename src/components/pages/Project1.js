@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import { Button } from '../Button';
-import Footer from '../Footer';
 import Textblock from '../Textblock';
 
 function Project1() {
@@ -25,6 +24,7 @@ function Project1() {
 					no longer load, but the core functionality is still operational.'
 					title='Force of Will TCG Web Database'
 				></Textblock>
+				<br></br>
 				<Button
 					className='btn'
 					buttonStyle='btn--outline'
@@ -39,7 +39,6 @@ function Project1() {
 					</a>
 				</Button>
 			</div>
-			<Footer></Footer>
 		</>
 	);
 }

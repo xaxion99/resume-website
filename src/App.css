@@ -24,6 +24,21 @@
 	height: 90.4vh;
 }
 
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+	background: #242424;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 5rem;
+	height: 90.4vh;
+	padding-bottom: 2rem;
+}
+
 .project-1 > .btn,
 .project-2 > .btn,
 .project-3 > .btn,
@@ -42,21 +57,6 @@
 	color: #242424;
 }
 
-.project-1,
-.project-2,
-.project-3,
-.project-4,
-.project-5 {
-	background: #242424;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #fff;
-	font-size: 5rem;
-	height: 90.4vh;
-	padding-bottom: 2rem;
-}
-
 @media screen and (max-width: 1475.5px) {
 	.aboutme,
 	.project-1,
@@ -71,13 +71,17 @@
 
 @media screen and (max-height: 1210.5px) {
 	.aboutme,
-	.project-1,
-	.project-2,
-	.project-3,
-	.project-4,
-	.project-5,
 	.projects {
 		height: fit-content;
 	}
 }
 
+@media screen and (max-height: 960px) {
+	.project-1,
+	.project-2,
+	.project-3,
+	.project-4,
+	.project-5 {
+		height: fit-content;
+	}
+}
